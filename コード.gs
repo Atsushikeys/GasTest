@@ -33,7 +33,7 @@ function meigenBot(){
 }
 
 function sendMessage(body){
-  var cw = ChatWorkClient.factory({token: 'a868e621d3594147f69c41946056b79e'});
+  var cw = ChatWorkClient.factory({token: ''});
   cw.sendMessageToMyChat(body);
 }
 
